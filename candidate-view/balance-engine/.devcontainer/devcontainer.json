@@ -1,0 +1,13 @@
+{
+  "name": "balance-engine (AI-enabled exercise)",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "pip install -r requirements.txt",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python", "GitHub.copilot", "GitHub.copilot-chat"],
+      "settings": {
+        "python.testing.pytestEnabled": true
+      }
+    }
+  }
+}

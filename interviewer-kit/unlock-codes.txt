@@ -1,0 +1,12 @@
+Unlock codes for the candidate portal. Keep this file to yourself.
+Capitals, spaces and hyphens do not matter when the candidate types a code.
+
+beacon-oak-81            Session 1 (Integration): starter repository and spec
+onyx-bison-49            Session 2 (AI programming): starter repository and Part 1
+delta-yarrow-71          Session 2: Part 2
+ridge-mint-55            Session 2: Part 3
+moss-birch-14            Session 2: Part 4
+arrow-bamboo-56          Session 3 (Bug squash): repository and instructions
+cinder-sage-43           After Session 1: verification suite
+dune-pebble-96           After Session 2: verification suite
+quill-otter-79           After Session 3: debrief notes

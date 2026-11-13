@@ -1,0 +1,413 @@
+{
+ "acct_tidewater": {
+  "charge_ids": [
+   "ch_Lw4AgKWTB9K3TS",
+   "ch_CCUQDYZtytEnUk",
+   "ch_MyrZXozXmAponE",
+   "ch_5YmiyN7w9RViHJ",
+   "ch_yLR9mhKdE6iEp7",
+   "ch_Nujzf9Dr64YYJB"
+  ],
+  "refund_count": 2,
+  "settlement": [
+   {
+    "currency": "usd",
+    "gross": 37999,
+    "fees": 1411,
+    "refunds": 2000,
+    "charge_count": 4,
+    "net": 34588
+   }
+  ],
+  "payouts": [
+   {
+    "currency": "usd",
+    "amount": 34588
+   }
+  ],
+  "common_mistakes": {
+   "usd": {
+    "fees": {
+     "without the cross-border surcharge": 1223,
+     "with the surcharge applied to every charge": 1794,
+     "with 2.9% and 1.5% added before rounding (4.4% rounded once)": 1410,
+     "with banker's rounding (round half to even)": 1409,
+     "with percentages truncated instead of rounded": 1407,
+     "with fees charged on pending and failed charges too": 1907,
+     "with fees charged on pending charges too": 1804
+    },
+    "gross": {
+     "with pending and failed charges included": 48749,
+     "with pending charges included": 46249,
+     "from the first page of charges only (10 per page)": 37999,
+     "from the first page of charges only (20 per page)": 37999
+    },
+    "refunds": {
+     "with failed refunds included": 2500,
+     "from the first page of refunds only (10 per page)": 2000,
+     "from the first page of refunds only (20 per page)": 2000,
+     "with no refunds subtracted": 0
+    },
+    "charge_count": {
+     "with pending and failed charges included": 6,
+     "with pending charges included": 5
+    }
+   }
+  }
+ },
+ "acct_nimbus": {
+  "charge_ids": [
+   "ch_nofUSYoSvm9MCB",
+   "ch_xYqnxNcCoN9WEu",
+   "ch_B2Cm8pLtTngJVx",
+   "ch_Lxg4zFJuys6goF",
+   "ch_EPC36V22hgQZH7",
+   "ch_rkzTgmWtN75qdL",
+   "ch_64cN8daTeKRdWZ",
+   "ch_2kRoEY6XFPyypu",
+   "ch_CvZBmcpAFaj24C",
+   "ch_puXKqhob7xPgqT",
+   "ch_YTUf5L69CUu5wn",
+   "ch_3j2SgREb97reVU",
+   "ch_xj2rtoBXa3Duzv",
+   "ch_TWkUPHjzN4SkaS",
+   "ch_TWHJsmZP6xeEhr",
+   "ch_wBNT2Ba2YoF3cp",
+   "ch_ycQSdm2iM9YwQh",
+   "ch_cfRubesWvhdjEM",
+   "ch_K2EVMEUHXsx6Hc",
+   "ch_42EBKhstoSbbTp",
+   "ch_d5DT5iFxALFUpZ",
+   "ch_A9QNDa4F5a8odM",
+   "ch_w6hgLHRzXWRsLZ",
+   "ch_eG9Q48AD9dZinK",
+   "ch_GJBq7kXXJhGyyq",
+   "ch_E29myZQPQLfpMt",
+   "ch_dprn2dB3v6SziG",
+   "ch_K2RwNX2A93YFR6",
+   "ch_MzGVGMoE2mDyfL",
+   "ch_yydeaVctEE37A6",
+   "ch_mudt4BGqJP22NE",
+   "ch_4zkVEugPooTVWx",
+   "ch_pnkFPmZGrPvDv3",
+   "ch_9F7ocTAmwGf7c4",
+   "ch_kkSDRveoPfho9W",
+   "ch_oqAHXESadJn8gw",
+   "ch_AiCTxJANxDV9WR",
+   "ch_TVoVPRJjTpupT7",
+   "ch_35Qgswmt68PjLD",
+   "ch_yESr3Mu6RRat9C",
+   "ch_xtok6CyBNySMKo",
+   "ch_dZxepFy2SyCzsf",
+   "ch_mze3yUL3hJvw2Y",
+   "ch_gE84nCW4ZKg2qW",
+   "ch_3ZbTBLWcsv3yuw",
+   "ch_moSvvMpoY9QNWQ",
+   "ch_S897f2frUFvzon",
+   "ch_qMyvHmSELFwSSy",
+   "ch_9uKckwxFSgdMLj",
+   "ch_ULhp7cpZP6AS3t",
+   "ch_womRxrBGgUAz5u",
+   "ch_V2eT2wdoqoiK7Z",
+   "ch_APYS3T9p6vujfU",
+   "ch_Fwyyas6ho3z4Di",
+   "ch_tv4vPBsqtY5ZH9",
+   "ch_wgtW4rMmexYSwV",
+   "ch_BZoFeWAthaMiaX"
+  ],
+  "refund_count": 24,
+  "settlement": [
+   {
+    "currency": "eur",
+    "gross": 192154,
+    "fees": 7129,
+    "refunds": 65196,
+    "charge_count": 13,
+    "net": 119829
+   },
+   {
+    "currency": "usd",
+    "gross": 839243,
+    "fees": 32224,
+    "refunds": 112866,
+    "charge_count": 33,
+    "net": 694153
+   }
+  ],
+  "payouts": [
+   {
+    "currency": "eur",
+    "amount": 119829
+   },
+   {
+    "currency": "usd",
+    "amount": 694153
+   }
+  ],
+  "common_mistakes": {
+   "eur": {
+    "fees": {
+     "without the cross-border surcharge": 5901,
+     "with the surcharge applied to every charge": 8784,
+     "with 2.9% and 1.5% added before rounding (4.4% rounded once)": 7127,
+     "with banker's rounding (round half to even)": 7127,
+     "with percentages truncated instead of rounded": 7115,
+     "with fees charged on pending and failed charges too": 10237,
+     "with fees charged on pending charges too": 9040
+    },
+    "gross": {
+     "with pending and failed charges included": 287201,
+     "with pending charges included": 247652,
+     "from the first page of charges only (10 per page)": 17299,
+     "from the first page of charges only (20 per page)": 63698
+    },
+    "refunds": {
+     "with failed refunds included": 65946,
+     "from the first page of refunds only (10 per page)": 30146,
+     "from the first page of refunds only (20 per page)": 36146,
+     "with no refunds subtracted": 0
+    },
+    "charge_count": {
+     "with pending and failed charges included": 17,
+     "with pending charges included": 15
+    }
+   },
+   "usd": {
+    "fees": {
+     "without the cross-border surcharge": 25330,
+     "with the surcharge applied to every charge": 37921,
+     "with 2.9% and 1.5% added before rounding (4.4% rounded once)": 32222,
+     "with banker's rounding (round half to even)": 32219,
+     "with percentages truncated instead of rounded": 32196,
+     "with fees charged on pending and failed charges too": 37971,
+     "with fees charged on pending charges too": 34656
+    },
+    "gross": {
+     "with pending and failed charges included": 986708,
+     "with pending charges included": 892491,
+     "from the first page of charges only (10 per page)": 126097,
+     "from the first page of charges only (20 per page)": 209073
+    },
+    "refunds": {
+     "with failed refunds included": 146571,
+     "from the first page of refunds only (10 per page)": 35250,
+     "from the first page of refunds only (20 per page)": 102616,
+     "with no refunds subtracted": 0
+    },
+    "charge_count": {
+     "with pending and failed charges included": 40,
+     "with pending charges included": 36
+    }
+   }
+  }
+ },
+ "acct_orchard": {
+  "charge_ids": [
+   "ch_jyC6q9UUUAi22G",
+   "ch_xjHDuFykuAndFt",
+   "ch_7woYLSbqWXYVh6",
+   "ch_wcYQL3kEfcGLHd",
+   "ch_iV8B76KM7YQcn5",
+   "ch_3HZGutyBJt9tG4",
+   "ch_jypXyL4LoTPHF3",
+   "ch_fGNWZ5tejKaqWZ",
+   "ch_vGz4m9uasyJM5s",
+   "ch_gzN6i7wXyCQoi4",
+   "ch_dM9dvhrHTXR3fQ",
+   "ch_NM5ASHLFUUJEC6",
+   "ch_W3jzXYQdfx7TUe",
+   "ch_imQ4tsZD2Scot9",
+   "ch_viSYY9VTn5QAx8",
+   "ch_xvtNsB7bSofKjX",
+   "ch_BRRj6XC2Z6QJuB",
+   "ch_Lx2iG8kqvwTZjf",
+   "ch_ruS5wsQHEoZDhh",
+   "ch_rarMdcT4thWJoQ",
+   "ch_gjqNYAPew38QM9",
+   "ch_EuJhNBDFvArZJW",
+   "ch_ik3surDEFbEeAr"
+  ],
+  "refund_count": 6,
+  "settlement": [
+   {
+    "currency": "eur",
+    "gross": 4800,
+    "fees": 234,
+    "refunds": 4800,
+    "charge_count": 2,
+    "net": -234
+   },
+   {
+    "currency": "gbp",
+    "gross": 96403,
+    "fees": 3809,
+    "refunds": 7167,
+    "charge_count": 12,
+    "net": 85427
+   }
+  ],
+  "payouts": [
+   {
+    "currency": "gbp",
+    "amount": 85427
+   }
+  ],
+  "common_mistakes": {
+   "eur": {
+    "fees": {
+     "without the cross-border surcharge": 189,
+     "with the surcharge applied to every charge": 261,
+     "with 2.9% and 1.5% added before rounding (4.4% rounded once)": 234,
+     "with banker's rounding (round half to even)": 234,
+     "with percentages truncated instead of rounded": 234,
+     "with fees charged on pending and failed charges too": 1501,
+     "with fees charged on pending charges too": 620
+    },
+    "gross": {
+     "with pending and failed charges included": 35480,
+     "with pending charges included": 12640,
+     "from the first page of charges only (10 per page)": 1800,
+     "from the first page of charges only (20 per page)": 4800
+    },
+    "refunds": {
+     "with failed refunds included": 4800,
+     "from the first page of refunds only (10 per page)": 4800,
+     "from the first page of refunds only (20 per page)": 4800,
+     "with no refunds subtracted": 0
+    },
+    "charge_count": {
+     "with pending and failed charges included": 8,
+     "with pending charges included": 4
+    }
+   },
+   "gbp": {
+    "fees": {
+     "without the cross-border surcharge": 3037,
+     "with the surcharge applied to every charge": 4482,
+     "with 2.9% and 1.5% added before rounding (4.4% rounded once)": 3809,
+     "with banker's rounding (round half to even)": 3808,
+     "with percentages truncated instead of rounded": 3799,
+     "with fees charged on pending and failed charges too": 4598,
+     "with fees charged on pending charges too": 3943
+    },
+    "gross": {
+     "with pending and failed charges included": 119161,
+     "with pending charges included": 99002,
+     "from the first page of charges only (10 per page)": 55597,
+     "from the first page of charges only (20 per page)": 93304
+    },
+    "refunds": {
+     "with failed refunds included": 7867,
+     "from the first page of refunds only (10 per page)": 7167,
+     "from the first page of refunds only (20 per page)": 7167,
+     "with no refunds subtracted": 0
+    },
+    "charge_count": {
+     "with pending and failed charges included": 15,
+     "with pending charges included": 13
+    }
+   }
+  }
+ },
+ "acct_sprout": {
+  "charge_ids": [
+   "ch_qEWETXZnL4VTGj",
+   "ch_cyjnNr5Pjcmmrt",
+   "ch_d9J2D2JmrjkQQx"
+  ],
+  "refund_count": 2,
+  "settlement": [
+   {
+    "currency": "eur",
+    "gross": 6500,
+    "fees": 277,
+    "refunds": 6400,
+    "charge_count": 2,
+    "net": -177
+   }
+  ],
+  "payouts": [],
+  "common_mistakes": {
+   "eur": {
+    "fees": {
+     "without the cross-border surcharge": 239,
+     "with the surcharge applied to every charge": 337,
+     "with 2.9% and 1.5% added before rounding (4.4% rounded once)": 276,
+     "with banker's rounding (round half to even)": 276,
+     "with percentages truncated instead of rounded": 275,
+     "with fees charged on pending and failed charges too": 589,
+     "with fees charged on pending charges too": 277
+    },
+    "gross": {
+     "with pending and failed charges included": 16400,
+     "with pending charges included": 6500,
+     "from the first page of charges only (10 per page)": 6500,
+     "from the first page of charges only (20 per page)": 6500
+    },
+    "refunds": {
+     "with failed refunds included": 6400,
+     "from the first page of refunds only (10 per page)": 6400,
+     "from the first page of refunds only (20 per page)": 6400,
+     "with no refunds subtracted": 0
+    },
+    "charge_count": {
+     "with pending and failed charges included": 3,
+     "with pending charges included": 2
+    }
+   }
+  }
+ },
+ "acct_breakeven": {
+  "charge_ids": [
+   "ch_JnM4b8BGY7CQcD"
+  ],
+  "refund_count": 1,
+  "settlement": [
+   {
+    "currency": "usd",
+    "gross": 1000,
+    "fees": 59,
+    "refunds": 941,
+    "charge_count": 1,
+    "net": 0
+   }
+  ],
+  "payouts": [],
+  "common_mistakes": {
+   "usd": {
+    "fees": {
+     "without the cross-border surcharge": 59,
+     "with the surcharge applied to every charge": 74,
+     "with 2.9% and 1.5% added before rounding (4.4% rounded once)": 59,
+     "with banker's rounding (round half to even)": 59,
+     "with percentages truncated instead of rounded": 59,
+     "with fees charged on pending and failed charges too": 59,
+     "with fees charged on pending charges too": 59
+    },
+    "gross": {
+     "with pending and failed charges included": 1000,
+     "with pending charges included": 1000,
+     "from the first page of charges only (10 per page)": 1000,
+     "from the first page of charges only (20 per page)": 1000
+    },
+    "refunds": {
+     "with failed refunds included": 941,
+     "from the first page of refunds only (10 per page)": 941,
+     "from the first page of refunds only (20 per page)": 941,
+     "with no refunds subtracted": 0
+    },
+    "charge_count": {
+     "with pending and failed charges included": 1,
+     "with pending charges included": 1
+    }
+   }
+  }
+ },
+ "acct_ghost": {
+  "charge_ids": [],
+  "refund_count": 0,
+  "settlement": [],
+  "payouts": [],
+  "common_mistakes": {}
+ }
+}

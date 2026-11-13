@@ -1,0 +1,43 @@
+--- a/mako/runtime.py
++++ b/mako/runtime.py
+@@ -254,7 +254,8 @@
+         return self._top
+ 
+     def _exit(self):
+-        return self._pop()
++        self._pop()
++        return self._top
+ 
+     @property
+     def _top(self):
+--- a/mako/codegen.py
++++ b/mako/codegen.py
+@@ -790,7 +790,7 @@
+                 if self.compiler.pagetag:
+                     args = self.compiler.pagetag.filter_args.args + args
+                 if self.compiler.default_filters and "n" not in args:
+-                    args = args + self.compiler.default_filters
++                    args = self.compiler.default_filters + args
+         for e in args:
+             # if filter given as a function, get just the identifier portion
+             if e == "n":
+--- a/mako/exceptions.py
++++ b/mako/exceptions.py
+@@ -158,7 +158,7 @@
+             if not line:
+                 line = ""
+             try:
+-                (line_map, template_lines) = mods[filename]
++                (line_map, template_lines, template_filename) = mods[filename]
+             except KeyError:
+                 try:
+                     info = mako.template._get_module_info(filename)
+@@ -194,7 +194,7 @@
+                 template_lines = [
+                     line_ for line_ in template_source.split("\n")
+                 ]
+-                mods[filename] = (line_map, template_lines)
++                mods[filename] = (line_map, template_lines, template_filename)
+ 
+             template_ln = line_map[lineno - 1]
+ 

@@ -1,0 +1,26 @@
+2026-03-01T08:15:00Z,evt_1001,charge,acct_alpha,12500,USD
+2026-03-01T08:40:12Z,evt_1002,charge,acct_beta,4999,EUR
+2026-03-01T09:02:44Z,evt_1003,charge,acct_alpha,2000,USD
+2026-03-01T09:30:00Z,evt_1004,refund,acct_alpha,2000,USD,evt_1003
+2026-03-01T10:05:31Z,evt_1005,charge,acct_gamma,150000,GBP
+2026-03-01T10:05:31Z,evt_1005,charge,acct_gamma,150000,GBP
+
+2026-03-01T11:20:00Z,evt_1006,charge,acct_beta,700,EUR
+2026-03-01T11:45:09Z,evt_1007,charge,acct_alpha,89900,USD
+# 2026-03-01 export resumed after an outage
+2026-03-01T12:00:00Z,evt_1008,refund,acct_beta,1500,EUR,evt_1002
+2026-03-01T12:30:00Z,evt_1009,charge,acct_delta,3000,JPY
+2026-03-01T13:10:10Z,evt_1010,charge,acct_alpha,twelve,USD
+2026-03-01T13:15:00Z,evt_1011,charge,acct_gamma,2599,GBP
+ 2026-03-01T14:00:00Z , evt_1012 , charge , acct_beta , 1250 , EUR
+2026-03-01T14:30:00Z,evt_1013,refund,acct_gamma,50000,GBP,evt_1005
+2026-03-01T15:00:00Z,evt_1014,charge,acct_alpha,5600,usd
+2026-03-01T16:20:00Z,evt_1015,charge,acct_delta,12000,JPY
+2026-03-01T17:00:00Z,evt_1007,charge,acct_alpha,89900,USD
+2026-03-01T18:45:00Z,evt_1016,charge,acct_beta,31000,EUR
+2026-03-02T07:05:00Z,evt_1017,refund,acct_alpha,10000,USD,evt_1007
+2026-03-02T08:00:00Z,evt_1018,charge,acct_gamma,45000,GBP
+2026-03-02T09:15:00Z,evt_1019,charge,acct_alpha,1999,USD
+2026-03-02T09:15:00Z,evt_1020,charge,acct_beta,8800,EUR,
+2026-03-02T10:40:00Z,evt_1021,charge,acct_alpha,25000,USD
+2026-03-02T11:00:00Z,evt_1022,refund,acct_beta,700,EUR,evt_1006
